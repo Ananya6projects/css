@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <style>
+        
+        div{
+            position: relative;
+            display: inline-block;
+            margin:10px;
+            border: 2px solid rgb(19, 18, 18);
+        }
+        .abs{
+            position: absolute;
+            top:0;
+            left: 0;
+        }
+        
+
+        ul {
+            list-style-type: none;
+            background-color: rgb(89, 237, 20);
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li {
+            display: inline-block;
+            color: rgb(214, 43, 43);
+            width: max-content;
+            padding: 10px 100px;
+            font-size: 20px;
+            font-family: cursive;
+            
+        }
+
+        li:hover {
+            background-color: rgb(15, 7, 7);
+        }
+
+        body {
+            margin: 0;
+        }
+
+        ol {
+            list-style-type: none;
+            background-color: rgb(10, 14, 236);
+            width: fit-content;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        ol li {
+            color: rgb(228, 228, 231);
+            padding: 50px 10px;
+            font-size: 20px;
+            font-family: cursive;
+        }
+        img{
+            opacity:0.5 ;
+        }
+    
+        .dropdown{
+            position: relative;
+        }
+        .dropdown-content{
+            position: absolute;
+            display: none;
+            background-color: rgb(219, 8, 103);
+            padding: 12px 16px;
+            color: bisque;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Software</li>
+
+        <li>Feedback</li>
+        <li class="dropdown">Java
+            <div class="dropdown-content">
+            <div>Inheritance</div>
+            <div>Abstraction</div>
+            </div>
+        </li>
+        <img src="https://tse2.mm.bing.net/th?id=OIP.keiyGc0dt3tLEYFHETMzLQHaFj&pid=Api&P=0&h=180" class="kohli">
+        <img src="https://imgk.timesnownews.com/story/KL_Rahul_ton_celebration_vs_WI_in_Vizag.jpg" class="rahul" height="200" width="200">
+        <img src="https://sportstime247.com/wp-content/uploads/2021/10/KL-Rahul-rcb.jpg" class="kl" height="200" width="200">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.r8r8iMB4xm_yP0AeAnBtkQHaKY&pid=Api&P=0&h=180"  height="200" width="300">
+    </ul>
+  
+
+    <ol>
+        <li>Home</li>
+        <li>About</li>
+        <li>Software</li>
+        <li>Java</li>
+        <li>Feedback</li>
+        
+    </ol>
+    <br>
+
+    <div>
+        <img src="https://tse2.mm.bing.net/th?id=OIP.keiyGc0dt3tLEYFHETMzLQHaFj&pid=Api&P=0&h=180" >
+        <span class="abs">Virat Kohli</span>
+    </div>
+</body>
+
+</html>
