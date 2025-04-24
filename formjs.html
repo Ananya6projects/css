@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='formm.js'></script>
+</head>
+<body>
+    <form name="formName" onsubmit="submitForm()">
+<div>
+ <label for="nameId">Name</label> 
+ <span style="color:red">*</span>
+ <span>:</span>
+ <input type="text" id="nameId" name="nameName" required>
+</div>
+<div>
+    <label for="numberId">Number</label>
+    <span style="color: red;">*</span>
+    <span>:</span>
+    <input type="number" id="numberId" name="number" required>
+</div>
+<div>
+    <div>
+        <label for="emailId">Email</label>
+    <span style="color: red;">*</span>
+    <span>:</span>
+    <input type="email" id="emailId" name="emailName" required>
+    </div>
+    <div>
+        <label for="PasswordId">Password</label>
+    <span style="color: red;">*</span>
+    <span>:</span>
+    <input type="password" id="passwordId" name="password" required>
+    </div>
+    <div>
+        <label for="ConpassId">Confirm Password</label>
+        <span style="color: red;">*</span>
+        <span>:</span>
+        <input type="password" id="conpassId" name="pass" required>
+    </div>
+    <button type="submit" value="Submit">Submit</button>
+    <button type="reset" value="clear">Clear</button>
+</div>
+    </form>  
+</body>
+</html>
